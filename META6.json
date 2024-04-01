@@ -1,14 +1,12 @@
 {
   "auth": "zef:massa",
-  "authors": [
-    "Humberto Massa"
-  ],
+  "authors": ["Humberto Massa"],
   "build-depends": [
     "Readline",
     "Terminal::LineEditor",
     "Jupyter::Chatbook",
     "Qt::QtWidgets",
-    "https://github.com/massa/App-MandaSQL",
+    "https://github.com/massa/App-MandaSQL.git",
     "https://github.com/p6steve/raku-dan-polars.git",
     "6pm",
     "rakudoc",
@@ -26,7 +24,6 @@
     "Text::CSV",
     "Slang::SQL",
     "Prettier::Table",
-    "App::Mi6",
     "Notify",
     "vCard::Parser",
     "Term::termios",
@@ -47,7 +44,7 @@
     "Terminal::LineEditor",
     "Jupyter::Chatbook",
     "Qt::QtWidgets",
-    "https://github.com/massa/App-MandaSQL",
+    "https://github.com/massa/App-MandaSQL.git",
     "https://github.com/p6steve/raku-dan-polars.git",
     "6pm",
     "rakudoc",
@@ -65,7 +62,6 @@
     "Text::CSV",
     "Slang::SQL",
     "Prettier::Table",
-    "App::Mi6",
     "Notify",
     "vCard::Parser",
     "Term::termios",
@@ -88,17 +84,15 @@
   "provides": {
     "Task::Massa": "lib/Task/Massa.rakumod"
   },
-  "resources": [
-  ],
+  "resources": [],
   "source-url": "",
-  "tags": [
-  ],
+  "tags": [],
   "test-depends": [
     "Readline",
     "Terminal::LineEditor",
     "Jupyter::Chatbook",
     "Qt::QtWidgets",
-    "https://github.com/massa/App-MandaSQL",
+    "https://github.com/massa/App-MandaSQL.git",
     "https://github.com/p6steve/raku-dan-polars.git",
     "6pm",
     "rakudoc",
@@ -116,7 +110,6 @@
     "Text::CSV",
     "Slang::SQL",
     "Prettier::Table",
-    "App::Mi6",
     "Notify",
     "vCard::Parser",
     "Term::termios",
