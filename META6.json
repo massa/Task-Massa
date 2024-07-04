@@ -1,6 +1,8 @@
 {
   "auth": "zef:massa",
-  "authors": ["Humberto Massa"],
+  "authors": [
+    "Humberto Massa"
+  ],
   "build-depends": [
     "Readline",
     "Terminal::LineEditor",
@@ -101,16 +103,18 @@
     "Pod::To::Markdown",
     "Browser::Open"
   ],
-  "description": "blah blah blah",
+  "description": "my Raku default environment",
   "license": "Artistic-2.0",
   "name": "Task::Massa",
   "perl": "6.d",
   "provides": {
     "Task::Massa": "lib/Task/Massa.rakumod"
   },
-  "resources": [],
-  "source-url": "",
-  "tags": [],
+  "resources": [
+  ],
+  "source-url": "https://github.com/massa/Task-Massa.git",
+  "tags": [
+  ],
   "test-depends": [
     "Readline",
     "Term::termios",
